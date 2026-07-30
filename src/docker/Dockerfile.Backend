@@ -1,0 +1,17 @@
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+
+WORKDIR /src
+COPY Testt/ ./Testt/
+
+WORKDIR /src/Testt
+
+RUN dotnet restore "Testt.sln"
+RUN dotnet publish "Testt.WebAPI/Testt.WebAPI.csproj" -c Release -f net10.0 --no-restore -o /app/out
+
+FROM mcr.microsoft.com/dotnet/aspnet:10.0
+
+WORKDIR /app
+COPY --from=build /app/out ./
+
+EXPOSE 8080
+ENTRYPOINT ["dotnet", "Testt.WebAPI.dll"]

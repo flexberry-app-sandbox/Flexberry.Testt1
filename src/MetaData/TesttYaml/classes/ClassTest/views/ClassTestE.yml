@@ -1,0 +1,9 @@
+name: ClassTestE
+properties:
+  - name: Address
+  - name: Name
+  - name: AssosiationClass
+    isMaster: true
+details:
+  - name: AggregationClass
+    viewName: AggregationD

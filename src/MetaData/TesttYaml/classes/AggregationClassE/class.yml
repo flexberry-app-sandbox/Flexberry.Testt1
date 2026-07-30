@@ -1,0 +1,6 @@
+name: AggregationClassE
+stereotype: «editform»
+caption: AggregationClassE
+formViews:
+  - viewName: AggregationE
+    viewClassName: AggregationClass

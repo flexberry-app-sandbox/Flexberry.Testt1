@@ -1,0 +1,67 @@
+diagramType: CAD
+name: Main
+primitives:
+  - type: CADClass
+    caseName: ClassTest
+    position: 165, 55
+    size: 139, 78
+    font: DejaVu Sans 9pt
+  - type: CADClass
+    caseName: AssosiationClass
+    position: 43, 215
+    size: 168, 66
+    font: DejaVu Sans 9pt
+  - type: CADClass
+    caseName: AggregationClass
+    position: 335, 238
+    size: 139, 66
+    font: DejaVu Sans 9pt
+  - type: CADClass
+    caseName: ClassEnum
+    position: 473, 55
+    size: 115, 91
+    font: DejaVu Sans 9pt
+  - type: Association
+    startPrimitive: AssosiationClass
+    endPrimitive: ClassTest
+    points:
+      - 120, 240
+      - 224, 90
+    font: DejaVu Sans 9pt
+  - type: Composition
+    startPrimitive: ClassTest
+    endPrimitive: AggregationClass
+    points:
+      - 260, 100
+      - 392, 266
+    font: DejaVu Sans 9pt
+  - type: CADClass
+    caseName: ClassTestE
+    position: 38, 330
+    size: 100, 66
+    font: DejaVu Sans 9pt
+  - type: CADClass
+    caseName: ClassTestL
+    position: 201, 331
+    size: 100, 66
+    font: DejaVu Sans 9pt
+  - type: CADClass
+    caseName: AssosiationClassE
+    position: 30, 451
+    size: 143, 66
+    font: DejaVu Sans 9pt
+  - type: CADClass
+    caseName: AssosiationClassL
+    position: 227, 453
+    size: 142, 66
+    font: DejaVu Sans 9pt
+  - type: CADClass
+    caseName: AggregationClassE
+    position: 29, 562
+    size: 146, 66
+    font: DejaVu Sans 9pt
+  - type: CADClass
+    caseName: AggregationClassL
+    position: 230, 565
+    size: 145, 66
+    font: DejaVu Sans 9pt
