@@ -1,0 +1,7 @@
+name: BusinessClass
+businessServerClass: BusinessClassBS
+attributes:
+  - name: bstest
+    type: string
+    order: 1
+    isNullable: true

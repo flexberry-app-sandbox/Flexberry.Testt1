@@ -14,11 +14,11 @@ primitives:
   - type: CADClass
     caseName: AggregationClass
     position: 335, 238
-    size: 139, 66
+    size: 155, 66
     font: DejaVu Sans 9pt
   - type: CADClass
     caseName: ClassEnum
-    position: 473, 55
+    position: 503, 55
     size: 115, 91
     font: DejaVu Sans 9pt
   - type: Association
@@ -64,4 +64,14 @@ primitives:
     caseName: AggregationClassL
     position: 230, 565
     size: 145, 66
+    font: DejaVu Sans 9pt
+  - type: CADClass
+    caseName: BusinessClassBS
+    position: 614, 252
+    size: 137, 66
+    font: DejaVu Sans 9pt
+  - type: CADClass
+    caseName: BusinessClass
+    position: 350, 63
+    size: 120, 66
     font: DejaVu Sans 9pt

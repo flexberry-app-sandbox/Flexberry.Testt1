@@ -145,6 +145,7 @@ namespace Testt.WebAPI
 
             container.RegisterType<IAggregationClassService, AggregationClassService>();
             container.RegisterType<IAssosiationClassService, AssosiationClassService>();
+            container.RegisterType<IBusinessClassService, BusinessClassService>();
             container.RegisterType<IClassTestService, ClassTestService>();
 
             container.RegisterType<IExcelExportProvider<AggregationClassDtoBase>, AggregationClassLExportProvider>("AggregationClassLExportProvider");

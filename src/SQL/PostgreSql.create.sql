@@ -3,6 +3,12 @@
 
 
 
+CREATE TABLE BusinessClass (
+ primaryKey UUID NOT NULL,
+ bstest VARCHAR(255) NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE AggregationClass (
  primaryKey UUID NOT NULL,
  AggregationAtr VARCHAR(255) NULL,
