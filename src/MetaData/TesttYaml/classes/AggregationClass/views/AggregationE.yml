@@ -1,3 +1,4 @@
 name: AggregationE
 properties:
   - name: AggregationAtr
+    caption: AggregationAtr

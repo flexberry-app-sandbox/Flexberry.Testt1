@@ -32,12 +32,12 @@ namespace Testt.ApplicationLayer.DTO.AggregationClass
         }
 
         /// <summary>
-        /// .
+        /// AggregationAtr.
         /// </summary>
         public string? AggregationAtr { get; set; }
 
         /// <summary>
-        /// .
+        /// AggregationAtr.
         /// </summary>
         public FilterOperation? AggregationAtrOp { get; set; }
         // *** Start programmer edit section *** (Custom filter props)

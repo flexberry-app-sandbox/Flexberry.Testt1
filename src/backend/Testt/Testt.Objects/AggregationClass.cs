@@ -25,11 +25,11 @@ namespace Testt
     [AutoAltered()]
     [Caption("")]
     [View("AggregationD", new string[] {
-            "AggregationAtr"})]
+            "AggregationAtr as \'AggregationAtr\'"})]
     [View("AggregationE", new string[] {
-            "AggregationAtr"})]
+            "AggregationAtr as \'AggregationAtr\'"})]
     [View("AggregationL", new string[] {
-            "AggregationAtr"})]
+            "AggregationAtr as \'AggregationAtr\'"})]
     public class AggregationClass : ICSSoft.STORMNET.DataObject
     {
 

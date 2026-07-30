@@ -25,7 +25,7 @@ const AssosiationClassEFields = ({ isNew = false }: AssosiationClassEFieldsProps
             <ControlTextField
               id="assosiationName"
               name="assosiationName"
-              label=""
+              label="AssosiationName"
             />
           </Grid>
         </Grid>

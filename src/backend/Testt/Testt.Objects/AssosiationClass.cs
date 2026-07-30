@@ -25,9 +25,9 @@ namespace Testt
     [AutoAltered()]
     [Caption("")]
     [View("AssosiationE", new string[] {
-            "AssosiationName"})]
+            "AssosiationName as \'AssosiationName\'"})]
     [View("AssosiationL", new string[] {
-            "AssosiationName"})]
+            "AssosiationName as \'AssosiationName\'"})]
     public class AssosiationClass : ICSSoft.STORMNET.DataObject
     {
 

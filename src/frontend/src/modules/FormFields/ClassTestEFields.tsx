@@ -45,7 +45,7 @@ const ClassTestEFields = ({ isNew = false }: ClassTestEFieldsProps) => {
   >[] = [
     {
       field: 'aggregationAtr',
-      title: '',
+      title: 'AggregationAtr',
       editor: 'text',
     },
   ];
@@ -72,24 +72,26 @@ const ClassTestEFields = ({ isNew = false }: ClassTestEFieldsProps) => {
             <ControlTextField
               id="address"
               name="address"
-              label=""
+              label="Address"
             />
           </Grid>
           <Grid size={{ xs: 12, md: 6, lg: 6 }}>
             <ControlDropDown
               name="name"
-              label=""
+              label="Name"
               options={ClassEnum}
             />
           </Grid>
           <Grid size={{ xs: 12, md: 6, lg: 6 }}>
             <ControlDropDown
               name="assosiationClassId"
-              label=""
+              label="AssosiationClass"
               options={assosiationClass}
               getOptionLabel={(opt) => opt.id?.toString() ?? ''}
               required
-              rules={{ validate: (record) => (record && record !== emptyGuid) || ' - обязательное поле.' }}
+              rules={{
+                validate: (record) => (record && record !== emptyGuid) || 'AssosiationClass - обязательное поле.',
+              }}
             />
           </Grid>
         </Grid>
@@ -98,7 +100,9 @@ const ClassTestEFields = ({ isNew = false }: ClassTestEFieldsProps) => {
         <Typography
           variant="h6"
           component="span"
-        ></Typography>
+        >
+          AggregationClass
+        </Typography>
         <Grid
           container
           spacing={1.5}

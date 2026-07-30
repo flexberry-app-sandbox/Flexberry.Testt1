@@ -76,7 +76,7 @@ export default function AssosiationClassPageList() {
   const fields = applyFieldSettings([
     {
       field: 'assosiationName',
-      title: '',
+      title: 'AssosiationName',
       filter: true,
       type: 'text',
     },

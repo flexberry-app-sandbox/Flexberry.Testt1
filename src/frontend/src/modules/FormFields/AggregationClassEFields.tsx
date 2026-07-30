@@ -25,7 +25,7 @@ const AggregationClassEFields = ({ isNew = false }: AggregationClassEFieldsProps
             <ControlTextField
               id="aggregationAtr"
               name="aggregationAtr"
-              label=""
+              label="AggregationAtr"
             />
           </Grid>
         </Grid>

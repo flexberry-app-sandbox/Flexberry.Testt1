@@ -25,14 +25,14 @@ namespace Testt
     [AutoAltered()]
     [Caption("")]
     [View("ClassTestE", new string[] {
-            "Address",
-            "Name",
-            "AssosiationClass"})]
-    [AssociatedDetailViewAttribute("ClassTestE", "AggregationClass", "AggregationD", true, "", "", true, new string[] {
+            "Address as \'Address\'",
+            "Name as \'Name\'",
+            "AssosiationClass as \'AssosiationClass\'"})]
+    [AssociatedDetailViewAttribute("ClassTestE", "AggregationClass", "AggregationD", true, "", "AggregationClass", true, new string[] {
             ""})]
     [View("ClassTestL", new string[] {
-            "Address",
-            "Name"})]
+            "Address as \'Address\'",
+            "Name as \'Name\'"})]
     public class ClassTest : ICSSoft.STORMNET.DataObject
     {
 

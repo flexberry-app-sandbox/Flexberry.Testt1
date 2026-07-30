@@ -76,7 +76,7 @@ export default function AggregationClassPageList() {
   const fields = applyFieldSettings([
     {
       field: 'aggregationAtr',
-      title: '',
+      title: 'AggregationAtr',
       filter: true,
       type: 'text',
     },

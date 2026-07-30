@@ -47,21 +47,21 @@ namespace Testt.ApplicationLayer.DTO.ClassTest
         /// Address.
         /// </summary>
         [PropertyName("Address")]
-        [CaptionProperty("")]
+        [CaptionProperty("Address")]
         public string Address { get; set; } = string.Empty;
 
         /// <summary>
         /// Name.
         /// </summary>
         [PropertyName("Name")]
-        [CaptionProperty("")]
+        [CaptionProperty("Name")]
         public ClassEnum Name { get; set; }
 
         /// <summary>
         /// AssosiationClass.
         /// </summary>
         [PropertyName("AssosiationClass")]
-        [CaptionProperty("")]
+        [CaptionProperty("AssosiationClass")]
         public Guid AssosiationClassId { get; set; }
 
         // *** Start programmer edit section *** (Custom properties)

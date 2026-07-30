@@ -45,7 +45,7 @@ namespace Testt.ApplicationLayer.DTO.AggregationClass
         /// AggregationAtr.
         /// </summary>
         [PropertyName("AggregationAtr")]
-        [CaptionProperty("")]
+        [CaptionProperty("AggregationAtr")]
         public string AggregationAtr { get; set; } = string.Empty;
 
         // *** Start programmer edit section *** (Custom properties)

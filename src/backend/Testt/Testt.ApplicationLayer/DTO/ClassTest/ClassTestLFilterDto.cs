@@ -32,21 +32,21 @@ namespace Testt.ApplicationLayer.DTO.ClassTest
         }
 
         /// <summary>
-        /// .
+        /// Address.
         /// </summary>
         public string? Address { get; set; }
 
         /// <summary>
-        /// .
+        /// Address.
         /// </summary>
         public FilterOperation? AddressOp { get; set; }
         /// <summary>
-        /// .
+        /// Name.
         /// </summary>
         public ClassEnum? Name { get; set; }
 
         /// <summary>
-        /// .
+        /// Name.
         /// </summary>
         public FilterOperation? NameOp { get; set; }
         // *** Start programmer edit section *** (Custom filter props)

@@ -32,12 +32,12 @@ namespace Testt.ApplicationLayer.DTO.AssosiationClass
         }
 
         /// <summary>
-        /// .
+        /// AssosiationName.
         /// </summary>
         public string? AssosiationName { get; set; }
 
         /// <summary>
-        /// .
+        /// AssosiationName.
         /// </summary>
         public FilterOperation? AssosiationNameOp { get; set; }
         // *** Start programmer edit section *** (Custom filter props)

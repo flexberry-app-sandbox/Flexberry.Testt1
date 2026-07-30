@@ -45,7 +45,7 @@ namespace Testt.ApplicationLayer.DTO.AssosiationClass
         /// AssosiationName.
         /// </summary>
         [PropertyName("AssosiationName")]
-        [CaptionProperty("")]
+        [CaptionProperty("AssosiationName")]
         public string AssosiationName { get; set; } = string.Empty;
 
         // *** Start programmer edit section *** (Custom properties)

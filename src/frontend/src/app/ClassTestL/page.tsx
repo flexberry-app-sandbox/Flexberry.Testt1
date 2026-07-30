@@ -77,13 +77,13 @@ export default function ClassTestPageList() {
   const fields = applyFieldSettings([
     {
       field: 'address',
-      title: '',
+      title: 'Address',
       filter: true,
       type: 'text',
     },
     {
       field: 'name',
-      title: '',
+      title: 'Name',
       filter: true,
       type: 'enum',
       options: ClassEnum,
