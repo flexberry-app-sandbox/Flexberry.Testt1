@@ -1,4 +1,5 @@
 name: ClassTest
+auditEnabled: true
 attributes:
   - name: Address
     type: string

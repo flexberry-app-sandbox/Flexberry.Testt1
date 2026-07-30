@@ -36,7 +36,6 @@ namespace Testt
         public virtual ICSSoft.STORMNET.DataObject[] OnUpdateBusinessClass(Testt.BusinessClass UpdatedObject)
         {
             // *** Start programmer edit section *** (OnUpdateBusinessClass)
-
             return new ICSSoft.STORMNET.DataObject[0];
             // *** End programmer edit section *** (OnUpdateBusinessClass)
         }
