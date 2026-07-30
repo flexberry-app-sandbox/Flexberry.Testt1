@@ -75,3 +75,8 @@ primitives:
     position: 350, 63
     size: 120, 66
     font: DejaVu Sans 9pt
+  - type: CADClass
+    caseName: tJson
+    position: 547, 362
+    size: 100, 66
+    font: DejaVu Sans 9pt
