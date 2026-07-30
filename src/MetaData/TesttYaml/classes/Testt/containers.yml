@@ -1,0 +1,10 @@
+containers:
+  - className: ClassTestL
+    menuPath: NewFolder1
+    caption: ClassTestL
+  - className: AggregationClassL
+    menuPath: NewFolder1
+    caption: AggregationClassL
+  - className: AssosiationClassL
+    menuPath: NewFolder1
+    caption: AssosiationClassL
